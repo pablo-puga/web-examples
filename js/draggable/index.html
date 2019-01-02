@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                font-family: sans-serif;
+            }
+
+            body {
+                display: flex;
+                flex-direction: row;
+            }
+
+            section {
+                flex: 1;
+                height: 500px;
+                padding: 10px;
+            }
+
+            .c1 {
+                background-color: lightgreen;
+            }
+
+            .c2 {
+                background-color: lightsalmon;
+            }
+
+            .card {
+                background-color: white;
+                border-radius: 5px;
+                padding: 5px;
+                font-size: 40px;
+                font-weight: bold;
+                line-height: 1;
+                cursor: pointer;
+            }
+
+            .card.dragged {
+                cursor: default;
+            }
+
+            .suggested-target {
+                background-color: grey;
+                border: 2px dashed black;
+                border-radius: 5px;
+                height: 40px;
+                line-height: 1;
+                font-size: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <section class="c1">
+            <div draggable="true" class="card">Move me</div>
+        </section>
+        <section class="c2">
+            <div class="suggested-target">Drop here</div>
+        </section>
+    </body>
+    <script src="draggable.js"></script>
+</html>
