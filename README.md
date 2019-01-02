@@ -4,7 +4,7 @@ Collection of simple Web (HTML/CSS/JS) examples to have a small reference for th
 ## Examples by Category
 
 ### JavaScript
-- [*Draggable* - Simple setup for drag and drop from a column to another](js/draggable)
+- [**Draggable** - Simple setup for drag and drop from a column to another](js/draggable)
 
 
 ## Author
