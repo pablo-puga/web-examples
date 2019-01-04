@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                font-family: sans-serif;
+            }
+
+            * {
+                font-size: 20px;
+            }
+
+            #calculator {
+                width: 400px;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                margin-top: 20px;
+                margin-left: 20px;
+            }
+
+            #operation {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+
+            input {
+                width: 80px;
+            }
+
+            span {
+                width: 20px;
+                line-height: 1.4;
+                text-align: center;
+                vertical-align: middle;
+            }
+
+            #result {
+                width: calc(100% - 2 * 80px - 2 * 20px - 10px);
+                text-align: left;
+            }
+        </style>
+    </head>
+    <body>
+        <form id="calculator">
+            <select id="operation" name="operation">
+                <option value="addition" selected>Addition</option>
+                <option value="subtraction">Subtraction</option>
+                <option value="multiplication">Multiplication</option>
+                <option value="division">Division</option>
+            </select>
+            <input type="number" id="op1" name="op1" value="0"/>
+            <span id="sign">+</span>
+            <input type="number" id="op2" name="op2" value="0"/>
+            <span id="equals">=</span>
+            <span id="result">0</span>
+        </form>
+    </body>
+    <script src="calculator.js"></script>
+</html>
