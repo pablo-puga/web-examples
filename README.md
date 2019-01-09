@@ -1,10 +1,11 @@
 # Web Examples
-Collection of simple Web (HTML/CSS/JS) examples to have a small reference for those cases where you are a bit lost. 
+Collection of simple Web (HTML/CSS/JS) examples to have a small reference for those cases where you are a bit lost and don't know how to start. 
 
 ## Examples by Category
 
 ### JavaScript
 - [**Draggable** - Simple setup for drag and drop from a column to another](js/draggable)
+- [**Custom HTML Element** - Example about how to create a custom HTML element](js/custom-element)
 - [**Web Worker** - Simple web worker to perform calculation operations](js/web-worker)
 
 ### HTML & CSS
