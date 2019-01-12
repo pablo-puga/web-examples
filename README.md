@@ -4,8 +4,8 @@ Collection of simple Web (HTML/CSS/JS) examples to have a small reference for th
 ## Examples by Category
 
 ### JavaScript
-- [**Draggable** - Simple setup for drag and drop from a column to another](js/draggable)
 - [**Custom HTML Element** - Example about how to create a custom HTML element](js/custom-element)
+- [**Draggable** - Simple setup for drag and drop from a column to another](js/draggable)
 - [**Web Worker** - Simple web worker to perform calculation operations](js/web-worker)
 
 ### HTML & CSS
