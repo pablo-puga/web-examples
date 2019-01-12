@@ -9,6 +9,7 @@ Collection of simple Web (HTML/CSS/JS) examples to have a small reference for th
 - [**Web Worker** - Simple web worker to perform calculation operations](js/web-worker)
 
 ### HTML & CSS
+- [**CSS Multicol** - Column design similar to that of a magazine](html&css/css-multicol)
 - [**Simple Accordion** - Accordion with plain native HTML code instead of JS](html&css/accordion)
 
 ## Author
